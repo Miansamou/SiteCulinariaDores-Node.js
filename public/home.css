@@ -1,0 +1,29 @@
+.apresentation {
+    position: relative;
+    margin: 0 0 30px;
+    padding: 120px 60px;
+    background: #FBDFDB;
+    border-radius: 30px;
+    color: var(--color-black);
+}
+
+.initial-text {
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+}
+
+.apresentation .initial-text h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.initial-text p {
+    font-size: 18px;
+}
+
+.apresentation img {
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/standard.css">
+        {% block head %}
+            <title>ihDores</title>
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            <div class="Site-Name">
+                <a href="/">ihDores</a>
+            </div>
+            <nav class="Links-Menu">
+                <a id="Menu-Sobre" href="/Sobre">Sobre</a>
+                <a id="Menu-Receitas" href="/Receitas">Receitas</a>
+            </nav>
+        </header>
+        
+        {% block content %}
+    
+        {% endblock %}
+
+    </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "dores-culinaria",
+  "version": "0.0.1",
+  "description": "Site de culinária da Tia Dô",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Miguel Angelo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
