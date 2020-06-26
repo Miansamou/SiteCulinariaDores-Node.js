@@ -13,6 +13,11 @@ p {
     color: #444444;
     line-height: 28px;
 }
+
+p a {
+    color: royalblue;
+}
+
 header .Links-Menu #Menu-Sobre {
 
     font-weight: bold;

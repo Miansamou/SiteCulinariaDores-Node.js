@@ -48,7 +48,7 @@ header a:after{
 
 header a:hover:after {
     width: 70%;
-    transition: 400ms;
+    transition: 400ms ease;
 }
 
 header .Site-Name {
